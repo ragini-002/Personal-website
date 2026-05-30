@@ -50,10 +50,11 @@ body{
     font-size:1.5rem;
 }
 .pic{
-    background-image:url("https://blogs-cdn.imagine.art/3_D_1_7a47e0aa52.webp");
+    background-image:url("https://supabase.cuty.ai/storage/v1/object/public/pub-resource/image/seo/ai-tools-ai-girl-generator-f1.webp");
     width:40%;
     height:70vh;
     background-size:cover;
+    background-position:center;
     background-repeat:no-repeat;
     border-radius:30%;
 

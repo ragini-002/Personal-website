@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    background:rgb(34, 63, 91);
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    background-color: rgb(7, 7, 32);
+    width:stretch;
+    height:8vh;
+    align-items:center;
+
+}
+.name h1{
+    color:aqua;
+
+}
+.skill{
+    display:flex;
+    gap: 40px;
+}
+.skill a{
+    color:white;
+    text-decoration:none;
+    font-size:1.1rem;
+}
+.hero{
+    width:stretch;
+    height:100vh;
+    background-color:rgb(34, 63, 91);
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.text{
+    width:40%;
+    line-height:1.5;
+}
+.text h1{
+    font-size:5.7rem;
+    color:aqua;
+}
+.text p{
+    color:white;
+    font-size:1.5rem;
+}
+.pic{
+    background-image:url("https://supabase.cuty.ai/storage/v1/object/public/pub-resource/image/seo/ai-tools-ai-girl-generator-f1.webp");
+    width:40%;
+    height:70vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius:0%;
+
+}
+.button{
+    display:flex;
+    justify-content: space-evenly;
+}
+.btn{
+    width:30%;
+    height:6vh;
+    border-radius:20px;
+    border:none;
+    cursor:pointer;
+}
+button{
+    font-size:1.2rem;
+    transition:0.3s ease;
+}
+button:hover{
+    transform:translateY(-5px);
+}
+.about{
+    width:stretch;
+    height:50vh;
+    background-color:rgb(34, 63, 91);
+    padding:50px;
+    line-height:1.7;
+}
+.about h1{
+    color:aqua;
+    font-size:3rem;
+}
+.about p{
+    color:white;
+    font-size:1.5rem;
+}
+.skills{
+    width:stretch;
+    height:30vh;
+    display:flex;
+    justify-content:space-around;
+    background-color:rgb(34, 63, 91);
+
+}
+.tag{
+    display:flex;
+    background-color:rgba(27, 27, 58, 0.703);
+    width:13rem;
+    height:7vh;
+    color:white;
+    justify-content:center;
+    align-items:center;
+    border:none;
+    border-radius:20px;
+    
+}
+.project{
+    display:flex;
+    justify-content:space-around;
+    margin:20px;
+    height:50vh;
+}
+.demo{
+    width:25rem;
+    height:25vh;
+    background-color:rgba(27, 27, 58, 0.703);
+    padding:30px;
+    line-height:1.6;
+    border-radius:20px;
+}
+.end{
+    display:flex;
+    flex-direction:column;
+    line-height:5;
+    justify-content:center;
+    align-items:center;
+    height:30vh;
+    width:stretch;
+    background-color:rgb(23, 36, 59);
+}
+.end p{
+    color: white;
+    font-size:1.5rem;
+
+}
+.end button{
+    color:black;
+    border-radius:20px;
+    border:none;
+    width:150px;
+    height:7vh;
+    cursor:pointer;
+    background-color:aqua;
+}

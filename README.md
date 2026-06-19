@@ -22,3 +22,5 @@ https://personal-website-tau-ruby-35.vercel.app/
 
 ## Author
 Ragini Kumari
+
+Made with ❤️ For HackClub By Ragini Kumari
